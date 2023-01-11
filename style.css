@@ -1,0 +1,25 @@
+a.headin {
+  font-size: 80px;
+  color: rgb(248, 110, 110);
+}
+
+span.headin {
+  color: rgb(248, 110, 110);
+}
+
+.headin-one {
+  color: rgb(248, 110, 110);
+}
+
+.nav-link:hover {
+  color: rgb(248, 110, 110) !important;
+  transform: scale(1.1);
+  margin-left: 2rem;
+}
+.hov-1:hover {
+  color: rgb(248, 110, 110);
+}
+.navbar {
+  min-height: 130px;
+  z-index: 9999;
+}
