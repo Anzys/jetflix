@@ -1,0 +1,26 @@
+.form-1 {
+  margin-top: 10rem;
+}
+.h-one {
+  color: rgb(248, 110, 110) !important;
+}
+.h-one:hover {
+  transform: scale(1.7);
+}
+.btn-1 {
+  background: rgb(248, 110, 110) !important;
+}
+.btn-1:hover {
+  transform: scale(1.2);
+}
+
+.bell {
+  font-size: 1rem;
+}
+
+.form-container {
+  max-width: 500px;
+}
+.foot-1 {
+  color: rgb(248, 110, 110) !important;
+}
