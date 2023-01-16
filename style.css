@@ -1,3 +1,8 @@
+/* .img-back {
+  display: flex !important;
+  background: cover no-repeat;
+} */
+
 a.headin {
   font-size: 80px;
   color: rgb(248, 110, 110);
@@ -15,11 +20,15 @@ span.headin {
 .headin-one {
   color: rgb(248, 110, 110);
 }
+.btn-2 {
+  border: solid rgb(248, 110, 110);
+  color: rgb(248, 110, 110);
+}
 
 .nav-link:hover {
   color: rgb(248, 110, 110) !important;
   transform: scale(1.1);
-  margin-left: 2rem;
+  margin-left: 1.3rem;
 }
 .hov-1:hover {
   color: rgb(248, 110, 110);
@@ -27,4 +36,48 @@ span.headin {
 .navbar {
   min-height: 130px;
   z-index: 9999;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.bg-image {
+  position: relative;
+
+  background: url("/img/11.jpeg") center center;
+  background-size: cover;
+  height: 95vh;
+}
+
+.mid {
+  position: absolute;
+  width: 100%;
+}
+
+.body-main {
+  position: relative;
+}
+.word-1 {
+  margin-top: 12rem !important;
+}
+.butoy {
+  background: rgb(248, 110, 110);
+  color: white;
+  margin-top: 2rem;
+  margin-left: 6.5rem;
+}
+
+.butoy:hover {
+  background: rgb(248, 110, 110);
+  color: white;
+
+  transform: scale(1.2);
+}
+.ii {
+  cursor: pointer;
+}
+.ii:hover {
+  transform: scale(1.1);
+}
+.link-1 {
+  text-decoration: none;
+  color: white;
 }

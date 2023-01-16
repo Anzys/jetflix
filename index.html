@@ -19,155 +19,175 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg bg-dark position-sticky top-0">
-      <div class="container-fluid d-flex">
-        <div class="d-flex align-items-center">
-          <a class="navbar-brand d-flex align-items-center headin" href="#"
-            >Jetflix</a
-          >
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
+  <body class="bg-dark d-flex flex-column gap-4">
+    <div class="bg-image " >
+      <div class="mid">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container d-flex">
+            <div class="d-flex align-items-center">
+              <a class="navbar-brand d-flex align-items-center headin" href="#"
+                >Jetflix</a
+              >
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn  btn-2 btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+            <button
+              class="navbar-toggler btn-1 bg-light"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon tog-1"></span>
             </button>
-          </form>
-        </div>
-        <button
-          class="navbar-toggler btn-1 bg-light"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon tog-1"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-lg-0 list-1 gap-5">
-            <li class="text-light mt-2 h-5">
-              <i class="fa-regular fa-bell bell bello"></i>
-            </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-lg-0 list-1 gap-5">
+                <li class="text-light mt-2 h-5">
+                  <i class="fa-regular fa-bell bell bello"></i>
+                </li>
 
-            <li class="nav-item">
-              <a class="nav-link active text-light" href="#">HOME</a>
-            </li>
-            <li class="nav-item text-light">
-              <a class="nav-link text-light headin-one gap-5" href="#"
-                >TOP MOVIES</a
-              >
-            </li>
-            <li class="nav-item dropdown text-light">
-              <a
-                class="nav-link dropdown-toggle text-light headin-one"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                CATEGORIES
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a
-                    class="dropdown-item hov-1"
-                    href="https://www.netflix.com/browse/genre/1365?bc=34399"
-                    >ACTION</a
+                <li class="nav-item">
+                  <a class="nav-link active text-light" href="#">HOME</a>
+                </li>
+                <li class="nav-item text-light">
+                  <a class="nav-link text-light headin-one gap-5" href="#upcoming"
+                    >TOP MOVIES</a
                   >
                 </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
+                <li class="nav-item dropdown text-light">
                   <a
-                    class="dropdown-item hov-1"
-                    href="https://www.netflix.com/browse/genre/8883?bc=34399"
-                    >ROMANTIC</a
+                    class="nav-link dropdown-toggle text-light headin-one"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
                   >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a
-                    class="dropdown-item hov-1"
-                    href="https://www.netflix.com/browse/genre/3063?bc=34399"
-                    >ANIME</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
+                    CATEGORIES
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item hov-1"
+                        href="https://www.netflix.com/browse/genre/1365?bc=34399"
+                        >ACTION</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item hov-1"
+                        href="https://www.netflix.com/browse/genre/8883?bc=34399"
+                        >ROMANTIC</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item hov-1"
+                        href="https://www.netflix.com/browse/genre/3063?bc=34399"
+                        >ANIME</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
 
-                <li>
-                  <a
-                    class="dropdown-item hov-1"
-                    href="https://www.netflix.com/browse/genre/5824?bc=34399"
-                    >CRIME</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item hov-1"
+                        href="https://www.netflix.com/browse/genre/5824?bc=34399"
+                        >CRIME</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
 
-                <li>
-                  <a
-                    class="dropdown-item hov-1"
-                    href="https://www.netflix.com/browse/genre/3276033?bc=34399"
-                    >SCI-FI</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item hov-1"
+                        href="https://www.netflix.com/browse/genre/3276033?bc=34399"
+                        >SCI-FI</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
 
-                <li>
-                  <a
-                    class="dropdown-item hov-1"
-                    href="https://www.netflix.com/browse/genre/8933?bc=34399"
-                    >THRILLER</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item hov-1"
+                        href="https://www.netflix.com/browse/genre/8933?bc=34399"
+                        >THRILLER</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
 
-                <li>
-                  <a
-                    class="dropdown-item hov-1"
-                    href="https://www.netflix.com/browse/genre/8711?bc=34399"
-                    >HORROR</a
-                  >
+                    <li>
+                      <a
+                        class="dropdown-item hov-1"
+                        href="https://www.netflix.com/browse/genre/8711?bc=34399"
+                        >HORROR</a
+                      >
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="word-1">
+          <div
+            class="container d-flex justify-center align-items-center text-light">
+            <h1>WELCOME TO <span class="headin">JETFLIX</span> AUSTRALIA</h1>
+          </div>
+          <div
+            class="container d-flex justify-center align-items-center text-light">
+            <p>
+             <h1 class=""><i>Movies in just $9.99/Month</i> </h1>
+            </p>
+          </div>
+            
+             <div ><button class="btn  butoy mr-5 " type="submit"><a href="subscription.html" target="_blank" class="link-1">Subscribe  <i class="fa-regular fa-bell bell bello"></i></a>
+              </button>
+            
+          </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="container text-light d-flex justify-center align-items-center">
-      <h1>WELCOME TO <span class="headin">JETFLIX</span> AUSTRALIA</h1>
     </div>
-    <div class="container text-light d-flex justify-center align-items-center">
-      <p>
-        We are glad you're here! On JETFLIX you are able to find out where to
-        watch your favorite movies in Australia.
-      </p>
-    </div>
-    <div class="d-flex mb-3 justify-content-center gap-5">
-      <div class="p-2 card" style="width: 18rem">
-        <img src="img/1.jpg" alt="" class="h-100" />
+    
+
+    <div class="body-main">
+      <div class="text  ">
+        <h1 class="text-light" id="upcoming">Upcoming Movies</h1>
       </div>
-      <div class="p-2 card" style="width: 18rem">
-        <img src="img/2.webp" alt="" class="h-100" />
+      <div class="d-flex mb-5 justify-content-center gap-5">
+        <div class="p-2 card " style="width: 18rem">
+          <img src="img/1.jpg" alt="" class="h-100 ii" />
+        </div>
+        <div class="p-2 card" style="width: 18rem">
+          <img src="img/2.webp" alt="" class="h-100 ii" />
+        </div>
+        <div class="p-2 card" style="width: 18rem">
+          <img src="img/3.jpeg" alt="" class="h-100 ii" />
+        </div>
       </div>
-      <div class="p-2 card" style="width: 18rem">
-        <img src="img/3.jpeg" alt="" class="h-100" />
-      </div>
-    </div>
-    <div class="d-flex mb-3 justify-content-center gap-5">
-      <div class="p-2 card" style="width: 18rem">
-        <img src="img/4.webp" alt="" class="h-100" />
-      </div>
-      <div class="p-2 card" style="width: 18rem">
-        <img src="img/5.webp" alt="" class="h-100" />
-      </div>
-      <div class="p-2 card" style="width: 18rem">
-        <img src="img/6.jpeg" alt="" class="h-100" />
+      <div class="d-flex mb-3 justify-content-center gap-5">
+        <div class="p-2 card" style="width: 18rem">
+          <img src="img/4.webp " alt="" class="h-100 ii" />
+        </div>
+        <div class="p-2 card" style="width: 18rem">
+          <img src="img/5.webp" alt="" class="h-100 ii" />
+        </div>
+        <div class="p-2 card" style="width: 18rem">
+          <img src="img/6.jpeg" alt="" class="h-100 ii" />
+        </div>
       </div>
     </div>
 
