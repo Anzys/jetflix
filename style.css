@@ -44,7 +44,7 @@ span.headin {
 
   background: url("/img/11.jpeg") center center;
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
 }
 
 .mid {
@@ -80,4 +80,10 @@ span.headin {
 .link-1 {
   text-decoration: none;
   color: white;
+}
+.bello-2:hover {
+  color: white;
+}
+.upcome {
+  padding: 4rem;
 }
